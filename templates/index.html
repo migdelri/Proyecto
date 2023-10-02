@@ -1,0 +1,33 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listado de Pedidos</title>
+</head>
+<body>
+    <h1>Listado de Pedidos</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Pedido</th>
+                <th>Cliente</th>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Detalles</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for pedido in pedidos %}
+                <tr>
+                    <td>{{ pedido.pedido }}</td>
+                    <td>{{ pedido.cliente }}</td>
+                    <td>{{ pedido.producto }}</td>
+                    <td>{{ pedido.precio }}</td>
+                    <td><a href="{{ url_for('ver_pedido', pedido_id=pedido.pedido) }}">Ver Detalles</a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

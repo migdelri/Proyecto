@@ -1,0 +1,30 @@
+<!-- templates/pedido.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detalles del Pedido</title>
+</head>
+<body>
+    <h1>Detalles del Pedido</h1>
+    <table>
+        <tr>
+            <th>Pedido</th>
+            <td>{{ pedido.pedido }}</td>
+        </tr>
+        <tr>
+            <th>Cliente</th>
+            <td>{{ pedido.cliente }}</td>
+        </tr>
+        <tr>
+            <th>Producto</th>
+            <td>{{ pedido.producto }}</td>
+        </tr>
+        <tr>
+            <th>Precio</th>
+            <td>{{ pedido.precio }}</td>
+        </tr>
+    </table>
+    <a href="{{ url_for('listar_pedidos') }}">Volver al listado de pedidos</a>
+</body>
+</html>

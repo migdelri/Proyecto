@@ -1,0 +1,6 @@
+Ticket de Pedido - 2023-09-28 20:48:29.095021
+Número de Pedido: 4
+Cliente: Fernando
+Producto: Moto
+Precio: $45.00
+Total: $45.00

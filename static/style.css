@@ -1,0 +1,37 @@
+/* Estilos personalizados */
+body {
+    background: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Cambia el fondo a un gradiente */
+    font-family: Arial, sans-serif; /* Cambia la fuente */
+    text-align: center; /* Centra el contenido en el medio de la página */
+    padding: 20px; /* Espaciado interior */
+}
+
+h1 {
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+table {
+    background-color: #fff; /* Fondo blanco */
+    border-collapse: collapse; /* Colapsa los bordes de la tabla */
+    width: 80%; /* Ancho de la tabla */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+}
+
+th, td {
+    padding: 10px; /* Espaciado interno de celdas */
+    text-align: left; /* Alinea el contenido de las celdas a la izquierda */
+}
+
+th {
+    background-color: #007bff; /* Color de fondo del encabezado */
+    color: #fff; /* Color de texto del encabezado */
+}
+
+a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Quita el subrayado del enlace */
+}
+
+.back-link {
+    margin-top: 20px; /* Espaciado superior para el enlace de regreso */
+}
